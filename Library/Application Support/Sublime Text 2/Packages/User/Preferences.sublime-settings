@@ -1,0 +1,15 @@
+{
+	"color_scheme": "Packages/Color Scheme - Default/Solarized (Dark).tmTheme",
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"sublimejava_docpath":
+	[
+		"/Library/Java/JavaVirtualMachines/jdk1.7.0_11.jdk/Contents/Home/docs"
+	],
+	"sublimejava_srcpath":
+	[
+		"/Library/Java/JavaVirtualMachines/jdk1.7.0_11.jdk/Contents/Home/src"
+	]
+}
