@@ -1,15 +1,18 @@
 {
-	"color_scheme": "Packages/Color Scheme - Default/Solarized (Dark).tmTheme",
+	"color_scheme": "Packages/Color Scheme - Default/Solarized (Light).tmTheme",
 	"ignored_packages":
 	[
 		"Vintage"
 	],
 	"sublimejava_docpath":
 	[
-		"/Library/Java/JavaVirtualMachines/jdk1.7.0_11.jdk/Contents/Home/docs"
+		"/Library/Java/JavaVirtualMachines/jdk1.7.0_11.jdk/Contents/Home/docs/api"
 	],
 	"sublimejava_srcpath":
 	[
 		"/Library/Java/JavaVirtualMachines/jdk1.7.0_11.jdk/Contents/Home/src"
-	]
+	],
+
+    "mvn_home": "/usr/share/maven",
+    "java_home": "/Library/Java/JavaVirtualMachines/jdk1.7.0_17.jdk/Contents/Home"
 }
