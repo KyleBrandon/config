@@ -4,15 +4,18 @@ alias l='ls -l'
 alias reload='source ~/bin/dotfiles/bashrc'
 alias es='subl ~/bin/'
 alias o='open . &'
+alias home='cd $home'
 
 
 #Development
 alias code="cd ~/documents/code"
+
 alias nd="./node_modules/node-dev/node-dev server.js"
 alias ndd="./node_modules/node-dev/node-dev --debug server.js"
-alias rs="redis-server /usr/local/etc/redis.conf"
-alias test="./node_modules/mocha/bin/mocha"
+alias nt="./node_modules/mocha/bin/mocha"
+
 alias mm='mongod run --rest --dbpath ~/mongo/data'
+alias rs="redis-server /usr/local/etc/redis.conf"
 
 # Processes
 alias tu='top -o cpu' #cpu
