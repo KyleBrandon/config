@@ -1,7 +1,4 @@
 export GIT_EDITOR="subl -w"
-export NODE_PATH="/usr/local/lib/node_modules"
-export MVN_HOME=/usr/share/maven
-
 export EDITOR="subl"
-export PATH=~/bin:${MVN_HOME}/bin:$PATH
-export JAVA_HOME=$(/usr/libexec/java_home)
+export PATH=~/bin:~/glassfish3/bin:~/glassfish3/glassfish/bin:$PATH
+export NODE_PATH="/usr/local/lib/node_modules"
