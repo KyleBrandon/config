@@ -1,6 +1,6 @@
 
 #Command Line
-alias l='ls -l'
+alias l='ls -la'
 alias reload='source ~/bin/dotfiles/bashrc'
 alias es='subl ~/bin/'
 alias o='open . &'
