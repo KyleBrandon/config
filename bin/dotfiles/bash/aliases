@@ -5,15 +5,22 @@ alias reload='source ~/bin/dotfiles/bashrc'
 alias es='subl ~/bin/'
 alias o='open . &'
 alias home='cd $home'
+alias ..='cd ..'
+alias ...='cd ../..'
 
 
 #Development
 alias code="cd ~/documents/code"
 
+#JAVA EE
+alias sg="asadmin start-domain"
+
+#NODE
 alias nd="./node_modules/node-dev/node-dev server.js"
 alias ndd="./node_modules/node-dev/node-dev --debug server.js"
 alias nt="./node_modules/mocha/bin/mocha"
 
+#DB
 alias mm='mongod run --rest --dbpath ~/mongo/data'
 alias rs="redis-server /usr/local/etc/redis.conf"
 
@@ -38,3 +45,9 @@ alias gc="git commit -v"
 alias gca="git commit -v -a"
 alias gb="git branch"
 alias gba="git branch -a"
+
+
+#Maven
+mvnexec () {
+	mvn exec:java -Dexec.mainClass="$1"
+}

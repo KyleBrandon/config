@@ -1,4 +1,6 @@
 export GIT_EDITOR="subl -w"
 export EDITOR="subl"
-export PATH=~/bin:~/glassfish3/bin:~/glassfish3/glassfish/bin:$PATH
+export DERBY_HOME=~/glassfish3/javadb
+export GLASSFISH_HOME=~/glassfish3
+export PATH=~/bin:$GLASSFISH_HOME/bin:$GLASSFISH_HOME/glassfish/bin:$DERBY_HOME/bin:$PATH
 export NODE_PATH="/usr/local/lib/node_modules"

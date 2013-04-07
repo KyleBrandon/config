@@ -1,18 +1,79 @@
 {
+	//"color_theme": "Soda Light.sublime-theme",
 	"color_scheme": "Packages/Color Scheme - Default/Solarized (Light).tmTheme",
 	"ignored_packages":
 	[
 		"Vintage"
 	],
+	"long_project_names": true,
+	"maven_menu_commands":
+	[
+		{
+			"args":
+			{
+				"goals":
+				[
+					"test"
+				],
+				"paths":
+				[
+				]
+			},
+			"caption": "Maven: Run test",
+			"command": "maven"
+		},
+		{
+			"args":
+			{
+				"goals":
+				[
+					"clean",
+					"test"
+				],
+				"paths":
+				[
+				]
+			},
+			"caption": "Maven: Run clean test",
+			"command": "maven"
+		},
+		{
+			"args":
+			{
+				"goals":
+				[
+					"install"
+				],
+				"paths":
+				[
+				]
+			},
+			"caption": "Maven: Run install",
+			"command": "maven"
+		},
+		{
+			"args":
+			{
+				"goals":
+				[
+					"clean",
+					"install"
+				],
+				"paths":
+				[
+				]
+			},
+			"caption": "Maven: Run clean install",
+			"command": "maven"
+		}
+	],
 	"sublimejava_docpath":
 	[
-		"/Library/Java/JavaVirtualMachines/jdk1.7.0_11.jdk/Contents/Home/docs/api"
+		"/Library/Java/JavaVirtualMachines/jdk1.7.0_17.jdk/Contents/Home/docs/api",
+		"/Users/kyle/glassfish3/glassfish/docs/api"
 	],
 	"sublimejava_srcpath":
 	[
-		"/Library/Java/JavaVirtualMachines/jdk1.7.0_11.jdk/Contents/Home/src"
-	],
-
-    "mvn_home": "/usr/share/maven",
-    "java_home": "/Library/Java/JavaVirtualMachines/jdk1.7.0_17.jdk/Contents/Home"
+		"/Library/Java/JavaVirtualMachines/jdk1.7.0_17.jdk/Contents/Home/src"
+	]
 }
